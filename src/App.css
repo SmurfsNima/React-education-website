@@ -23,4 +23,7 @@ a{
   outline: none;
   padding: .8rem 1.4rem;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
