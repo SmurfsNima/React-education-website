@@ -9,11 +9,19 @@ import icon_3 from "../../../assets/program-icon-3.png";
 
 const Programs = () => {
   return (
-    <div className="programs">
-      <Program src={program_1} icon={icon_1} text="Graduation Degree" />
-      <Program src={program_2} icon={icon_2} text="Graduation Degree" />
-      <Program src={program_3} icon={icon_3} text="Graduation Degree" />
-    </div>
+    <>
+      <div className="title">
+        
+        <p>our program</p>
+        <h2>What We Offer</h2>
+      </div>
+
+      <div className="programs">
+        <Program src={program_1} icon={icon_1} text="Graduation Degree" />
+        <Program src={program_2} icon={icon_2} text="Graduation Degree" />
+        <Program src={program_3} icon={icon_3} text="Graduation Degree" />
+      </div>
+    </>
   );
 };
 
