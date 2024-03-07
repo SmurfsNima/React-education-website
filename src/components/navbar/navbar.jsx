@@ -1,8 +1,16 @@
 import "./navbar.css";
 import Logo from "../../assets/logo.png";
+import { useEffect, useState } from "react";
 const Navbar = () => {
+  const [sticy, setSticy] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 50 ? setSticy(true) : setSticy(false);
+    });
+  }, []);
   return (
-    <nav className="container">
+    <nav className={`container ${sticy ? "dark-nav" : ""}`}>
       <img src={Logo} alt="" />
       <ul>
         <li>Home</li>
