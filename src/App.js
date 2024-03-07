@@ -7,6 +7,7 @@ import Hero from './components/heroSection/hero.jsx';
 import Programs from './components/Programs/programs.jsx';
 import Title from './components/Title/title.jsx';
 import Campus from './components/campus/campus.jsx';
+import Testimonials from './components/testimonials/testimonials.jsx';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <About/>
         <Title text={'what we offer'} head={'programs'}/>
         <Campus/>
+        <Testimonials/>
       </div>
 
     </div>
