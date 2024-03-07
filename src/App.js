@@ -6,6 +6,7 @@ import Navbar from './components/navbar/navbar';
 import Hero from './components/heroSection/hero.jsx';
 import Programs from './components/Programs/programs.jsx';
 import Title from './components/Title/title.jsx';
+import Campus from './components/campus/campus.jsx';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
        <Programs/>
         <About/>
         <Title text={'what we offer'} head={'programs'}/>
+        <Campus/>
       </div>
 
     </div>

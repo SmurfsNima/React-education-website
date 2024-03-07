@@ -27,3 +27,7 @@ a{
   align-items: center;
   justify-content: center;
 }
+.btn.dark-btn{
+  background-color: #212ea0;
+  color: #fff;
+}
