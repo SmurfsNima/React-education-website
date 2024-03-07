@@ -11,7 +11,8 @@ nav{
     z-index: 10;
 }
 .dark-nav{
-    background: #333;
+    background: #212ea0;
+    transition: .5s;
 }
 nav img{
     width: 10rem;
