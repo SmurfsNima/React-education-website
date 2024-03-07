@@ -1,5 +1,5 @@
 import './hero.css'
-import arrow from '../../../assets/dark-arrow.png'
+import arrow from '../../assets/dark-arrow.png';
 const Hero = () => {
     return (  <div className="hero container">
         <div className="hero-text">

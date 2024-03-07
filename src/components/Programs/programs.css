@@ -40,17 +40,3 @@
     padding-top: 0;
     
 }
-.title{
-    text-align: center;
-    color: #212ea0;
-    font-size: .9rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 70px 0 30px;
-}
-.title h2{
-    font-size: 2rem;
-    color: #000f38;
-    margin-top: .5rem;
-    text-transform: none;
-}
