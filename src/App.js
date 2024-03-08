@@ -1,7 +1,7 @@
 
+
 import './App.css';
 import About from './components/about/about';
-
 import Navbar from './components/navbar/navbar';
 import Hero from './components/heroSection/hero.jsx';
 import Programs from './components/Programs/programs.jsx';
