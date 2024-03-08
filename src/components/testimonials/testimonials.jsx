@@ -9,16 +9,16 @@ import Userinfo from "./userInfo/userinfo";
 import { useRef } from "react";
 const Testimonials = () => {
   const slider = useRef()
-  let tx = 0
+  let tx = 0;
   const slideForward = ()=>{
-    if (tx > -50){
-      tx -= 25;
+    if(tx > -50 ){
+      tx -= 25
     }
     slider.current.style.transform = `translateX(${tx}%)`
   }
   const slideBackward = ()=>{
-    if (tx < 0){
-      tx += 25;
+    if(tx < 0 ){
+      tx += 25
     }
     slider.current.style.transform = `translateX(${tx}%)`
   }

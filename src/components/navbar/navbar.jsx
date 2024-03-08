@@ -6,7 +6,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 500 ? setSticy(true) : setSticy(false);
+      window.scrollY > 50 ? setSticy(true) : setSticy(false);
     });
   }, []);
   return (
