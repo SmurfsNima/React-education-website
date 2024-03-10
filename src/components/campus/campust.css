@@ -3,18 +3,27 @@
     margin: 80px auto;
     text-align: center;
 }
-.galley{
+.gallery{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.galley img{
+.gallery img{
     width: 24%;
     border-radius: 20px;
 }
 .campus button img{
     width: 20px;
     margin-left: 10px;
+}
+@media  (max-width:650px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px ;
+    }
 }

@@ -24,3 +24,43 @@ nav ul {
     gap: 2.5rem;
     font-size: 1.2rem;
 }
+.menu-icon{
+    display: none;
+}
+@media  (max-width:1000px) {
+    .logo{
+        width: 100px;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: -300px;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        background: #212ea0;
+        z-index: -1;
+        padding-top: 70px;
+        transition: 1s;
+        
+        
+    }
+    nav ul li{
+        margin: 10px 15px;
+    }
+    
+    .btn{
+        padding: 15px;
+        font-size: 1rem;
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        z-index: 1000;
+        margin-right: 2rem;
+    }
+    .show-menu{
+        right: 0;
+    }
+}

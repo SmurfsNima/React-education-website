@@ -1,12 +1,12 @@
 import "./about.css";
 import about_img from '../../assets/about.png';
 import about_icon from '../../assets/play-icon.png';
-const About = () => {
+const About = ({setplay}) => {
   return (
     <div className="about">
       <div className="about-left">
         <img src={about_img} alt="" className="about-img" />
-        <img src={about_icon} alt="" className="about-icon"/>
+        <img src={about_icon} alt="" className="about-icon" onClick={()=>setplay(true)}/>
       </div>
       <div className="about-right">
         <h3>Lorem ipsum dolor sit amet.</h3>

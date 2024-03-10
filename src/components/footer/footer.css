@@ -12,3 +12,16 @@
     display: inline-block;
     margin-left: 1.2rem;
 }
+@media (max-width:800px){
+    .footer{
+        display: block;
+        text-align: center;
+
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
+}

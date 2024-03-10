@@ -40,3 +40,12 @@
     padding-top: 0;
     
 }
+@media  (max-width:800px) {
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        margin: 12px auto;
+    }
+
+}

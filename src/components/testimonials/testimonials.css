@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 0 80px;
+  padding: 0 70px;
   margin: 80px auto;
   position: relative;
 }
@@ -54,4 +54,36 @@
 }
 .user-info h3 {
   color: #212ea0;
+}
+@media (max-width:800px){
+  .testimonials{
+    padding: 0px 40px;
+  }
+.next-icon,.back-icon{
+  padding: 10px;
+  width: 35px;
+}
+.slider ul li{
+  padding: 10px;
+}
+.slide{
+  padding: 10px;
+}
+.slide img{
+  border: 3px solid #212ea0;
+  width: 50px;
+}
+}
+@media (max-width:650px){
+  .user-info{
+    display: block;
+    margin-bottom: 10px;
+  font-size: 12px;
+  }
+  .user-info h3{
+    font-size: 16px;
+  }
+  .slider p{
+    font-size: 12px;
+  }
 }
