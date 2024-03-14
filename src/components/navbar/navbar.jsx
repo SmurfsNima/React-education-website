@@ -15,7 +15,7 @@ const Navbar = () => {
   }, []);
   return (
     <nav className={`container ${sticy ? "dark-nav" : ""}`}>
-      <img src={Logo} alt="" className="logo" />
+        <img src={Logo} alt="" className="logo" />
       <ul className={` ${click ? 'show-menu' : ''}`}>
         <li><Link to="hero" smooth={true} duration={500} offset={0}>Home</Link></li>
         <li><Link to="program" smooth={true} duration={500} offset={-260}>programs</Link></li>
@@ -26,6 +26,7 @@ const Navbar = () => {
         <Link className="btn" to="contact" smooth={true} duration={500} offset={-260}>contact us</Link>
         </li>
       </ul>
+   
       <img src={menu_icon} className="menu-icon" alt="" onClick={toggleClick} />
     </nav>
   );
