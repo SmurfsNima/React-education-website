@@ -15,19 +15,19 @@ const Navbar = () => {
   }, []);
   return (
     <nav className={`container ${sticy ? "dark-nav" : ""}`}>
-        <img src={Logo} alt="" className="logo" />
+      <img src={menu_icon} className="menu-icon" alt="" onClick={toggleClick} />
       <ul className={` ${click ? 'show-menu' : ''}`}>
-        <li><Link to="hero" smooth={true} duration={500} offset={0}>Home</Link></li>
-        <li><Link to="program" smooth={true} duration={500} offset={-260}>programs</Link></li>
-        <li><Link to="about" smooth={true} duration={500} offset={-150}>about us</Link></li>
-        <li><Link to="campus" smooth={true} duration={500} offset={-260}>campus</Link></li>
-        <li><Link to="testimonials" smooth={true} duration={500} offset={-260}>testimonials</Link></li>
+        <li><Link to="hero" smooth={true} duration={500} offset={0}>خانه</Link></li>
+        <li><Link to="program" smooth={true} duration={500} offset={-260}>برنامه ها</Link></li>
+        <li><Link to="about" smooth={true} duration={500} offset={-150}>درباره ما</Link></li>
+        <li><Link to="campus" smooth={true} duration={500} offset={-260}>اردوگاه</Link></li>
+        <li><Link to="testimonials" smooth={true} duration={500} offset={-260}>نظرات دانشجویان</Link></li>
         <li>
-        <Link className="btn" to="contact" smooth={true} duration={500} offset={-260}>contact us</Link>
+        <Link className="btn" to="contact" smooth={true} duration={500} offset={-260}>ارتباط با ما</Link>
         </li>
       </ul>
-   
-      <img src={menu_icon} className="menu-icon" alt="" onClick={toggleClick} />
+      <img src={Logo} alt="" className="logo" />
+      
     </nav>
   );
 };

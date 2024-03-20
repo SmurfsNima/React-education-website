@@ -53,6 +53,10 @@
   display: block;
   margin: 20px 0;
 }
+.email,.phone{
+  font-weight: 700;
+  font-size: 20px;
+}
 @media (max-width: 800px) {
   .contact {
     flex-direction: column;

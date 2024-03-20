@@ -19,13 +19,13 @@ function App() {
       <Navbar/>
       <Hero/>
       <div className='container'>
-        <Title text={'what we offer'} head={'programs'}/>
+        <Title text={'برنامه های قابل ارایه ما'} head= {'برنامه ها'} />
        <Programs/>
         <About setplay={setplay}/>
-        <Title text={'what we offer'} head={'programs'}/>
+       
         <Campus/>
         <Testimonials/>
-        <Title text={'Cntact us'} head={'Get in touch'}/>
+        <Title text={'ارتباط با ما'} head={'با ما در ارتباط باشید'}/>
         <Contact/>
         <Footer/>
       </div>

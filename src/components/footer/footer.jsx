@@ -1,10 +1,10 @@
 import './footer.css'
 const Footer = () => {
     return ( <div className="footer">
-        <p>2024 Edusity. All rights reserved.</p>
+        <p>کلیه حقوق محفوظ است ۱۴۰۳ ©</p>
         <ul>
-            <li>Term of services</li>
-            <li>Privacy policy</li>
+            <li>مقررات استفاده</li>
+            <li>سیاست حفظ حریم خصوصی</li>
         </ul>
         </div> );
 }

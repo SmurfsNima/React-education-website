@@ -24,43 +24,44 @@ const Testimonials = () => {
   };
   return (
     <div className="testimonials">
-      <img
-        src={next_icon}
-        alt=""
-        className="next-icon"
-        onClick={slideForward}
-      />
+     
       <img
         src={back_icon}
         alt=""
         className="back-icon"
         onClick={slideBackward}
       />
+       <img
+        src={next_icon}
+        alt=""
+        className="next-icon"
+        onClick={slideForward}
+      />
       <div className="slider">
         <ul ref={slider}>
           <Userinfo
             userImg={user_1}
-            name="Nima sadeghi"
-            loc="edusity,USa"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fugit, cupiditate nobis blanditiis possimus nulla et dolorum perspiciatis harum voluptatibus"
+            name="نیما صادقی"
+            loc="موسسه آموزشی کارن"
+            comment="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع بات"
           />
           <Userinfo
             userImg={user_2}
-            name="Nima sadeghi"
-            loc="edusity,USa"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fugit, cupiditate nobis blanditiis possimus nulla et dolorum perspiciatis harum voluptatibus"
+            name="نیما صادقی"
+            loc="موسسه آموزشی کارن"
+            comment="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع بات" 
           />
           <Userinfo
             userImg={user_3}
-            name="Nima sadeghi"
-            loc="edusity,USa"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fugit, cupiditate nobis blanditiis possimus nulla et dolorum perspiciatis harum voluptatibus"
+            name="نیما صادقی"
+            loc="موسسه آموزشی کارن"
+            comment="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع بات"
           />
           <Userinfo
             userImg={user_4}
-            name="Nima sadeghi"
-            loc="edusity,USa"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fugit, cupiditate nobis blanditiis possimus nulla et dolorum perspiciatis harum voluptatibus"
+            name="نیما صادقی"
+            loc="موسسه آموزشی کارن"
+            comment="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع بات"
           />
         </ul>
       </div>

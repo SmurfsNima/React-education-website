@@ -1,7 +1,7 @@
 .title{
     text-align: center;
     color: #212ea0;
-    font-size: .9rem;
+    font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
     margin: 70px 0 30px;
@@ -11,4 +11,5 @@
     color: #000f38;
     margin-top: .5rem;
     text-transform: none;
+    margin-bottom: 15px;
 }

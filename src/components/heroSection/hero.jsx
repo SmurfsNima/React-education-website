@@ -3,9 +3,9 @@ import arrow from '../../assets/dark-arrow.png';
 const Hero = () => {
     return (  <div className="hero container">
         <div className="hero-text">
-            <h1>We Ensure Better education for a better word</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam ea repellendus quisquam voluptas nostrum molestias. Ut maiores aliquid sunt, illo nisi cumque nulla velit!</p>
-            <button className='btn'>Explore more <img src={arrow} alt="" /></button>
+            <h1>آموزش بینهایت: هر آنچه که نیاز دارید</h1>
+            <p>"اکتشاف کنید ویژگی‌های جدید، مطالب متنوع و دوره‌های آموزشی تخصصی در آموزشگاه ما. با استفاده از روش‌های بروز و اساتید مجرب، به دنیایی از دانش و مهارت دست پیدا کنید."</p>
+            <button className='btn'> <img src={arrow} alt="" /> بیشتر بدانید </button>
         </div>
     </div> );
 }

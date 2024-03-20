@@ -33,46 +33,37 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-col">
-        <h3>
-          Send a massage <img src={msg_icon} alt="" />
-        </h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit necessitatsto
-          molestias aliquam at quo eligendi natus magnam labore recusandae
-          dolores officiis consequuntur dolore magni voluptatum illum! Nulla
-          quaerat voluptatem doloribus quod, alias deserunt similique earum
-          provident? Quisquam nulla unde harum, sed totam sequi tempore!
-        </p>
-        <ul>
-          <li>
-            <img src={mail_icon} alt="" /> sadeghinima090@gmail.com
-          </li>
-          <li>
-            <img src={phone_icon} alt="" /> +989907499672
-          </li>
-          <li>
-            <img src={loc_icon} alt="" />
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit
-            <br />. Doloremque, iure.
-          </li>
-        </ul>
-      </div>
-      <div className="contact-col">
         <form onSubmit={onSubmit}>
-          <label htmlFor="name">Your Name</label>
-          <input type="text" placeholder="Enter your Name" />
-          <label htmlFor="phone-number">Phone number</label>
-          <input type="text" placeholder="Enter your mobile number" />
-          <label htmlFor="msg">Write your massage here</label>
-          <textarea
-            rows="6"
-            placeholder="enter your massage"
-          ></textarea>
-          <button className="btn dark-btn">
-            Submit now <img src={white_arrow} alt="" />
-          </button>
+          <label htmlFor="name">نام شما</label>
+          <input type="text" placeholder="نام خود را وارد کنید" />
+          <label htmlFor="phone-number">شماره همراه</label>
+          <input type="text" placeholder="شماره همراه خود را وارد کنید" />
+          <label htmlFor="msg">پیغام شما</label>
+          <textarea rows="6" placeholder="پیغام خود را وارد کنید"></textarea>
+          <button className="btn dark-btn">ثبت</button>
         </form>
         <span>{result}</span>
+      </div>
+      <div className="contact-col">
+        <h3>
+        <img src={msg_icon} alt="" />
+          با ما درارتباط باشید
+        </h3>
+        <p>
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت 
+        </p>
+        <ul>
+          <li className="email">
+             sadeghinima090@gmail.com <img src={mail_icon} alt="" />
+          </li>
+          <li className="phone">
+            ۰۹۹۰۷۴۹۹۶۷۲ <img src={phone_icon} alt="" />
+          </li>
+          <li>
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ <br/>و با استفاده از طراحان گرافیک است
+            <img src={loc_icon} alt="" />
+          </li>
+        </ul>
       </div>
     </div>
   );
