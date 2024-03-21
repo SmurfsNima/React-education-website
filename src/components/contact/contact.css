@@ -60,6 +60,7 @@
 @media (max-width: 800px) {
   .contact {
     flex-direction: column;
+    gap: 60px;
   }
   .contact-col {
     padding: 20px;
@@ -70,5 +71,10 @@
     margin-top: 40px ;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  .submit-btn{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
   }
 }

@@ -12,9 +12,9 @@ const Programs = () => {
     <>
   
       <div className="programs">
-        <Program src={program_1} icon={icon_1} text="Graduation Degree" />
-        <Program src={program_2} icon={icon_2} text="Graduation Degree" />
-        <Program src={program_3} icon={icon_3} text="Graduation Degree" />
+        <Program src={program_1} icon={icon_1} text="مدرک معتبر" />
+        <Program src={program_2} icon={icon_2} text="مدرک معتبر" />
+        <Program src={program_3} icon={icon_3} text="مدرک معتبر" />
       </div>
     </>
   );

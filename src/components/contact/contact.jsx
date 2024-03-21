@@ -40,7 +40,7 @@ const Contact = () => {
           <input type="text" placeholder="شماره همراه خود را وارد کنید" />
           <label htmlFor="msg">پیغام شما</label>
           <textarea rows="6" placeholder="پیغام خود را وارد کنید"></textarea>
-          <button className="btn dark-btn">ثبت</button>
+          <button className="btn dark-btn submit-btn">ثبت</button>
         </form>
         <span>{result}</span>
       </div>
@@ -60,7 +60,7 @@ const Contact = () => {
             ۰۹۹۰۷۴۹۹۶۷۲ <img src={phone_icon} alt="" />
           </li>
           <li>
-          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ <br/>و با استفاده از طراحان گرافیک است
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم  چاپ 
             <img src={loc_icon} alt="" />
           </li>
         </ul>

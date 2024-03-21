@@ -23,6 +23,7 @@
 }
 .slider {
   overflow: hidden;
+
 }
 .slider ul {
   list-style: none;
@@ -30,6 +31,7 @@
   overflow-x: hidden;
   transition: 0.5s;
   display: flex;
+  
 }
 .slider ul li {
   width: 50%;
@@ -50,10 +52,13 @@
 }
 .user-info {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   align-items: center;
   margin-bottom: 20px;
   font-size: 0.9rem;
+}
+.user-info .info{
+  margin-right: .8rem;
 }
 .user-info h3 {
   color: #212ea0;
@@ -64,7 +69,7 @@
   }
   .next-icon,
   .back-icon {
-    padding: 10px;
+    padding: 8px;
     width: 35px;
   }
   .slider ul li {
@@ -85,7 +90,7 @@
     font-size: 12px;
   }
   .user-info h3 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .slider p {
     font-size: 12px;
@@ -93,6 +98,10 @@
 }
 @media (max-width: 550px) {
   .slider ul li .slide {
-    padding: 1.5rem;
+    padding: .8rem;
+  }
+  .slider ul {
+
+  
   }
 }

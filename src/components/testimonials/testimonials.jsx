@@ -11,14 +11,15 @@ const Testimonials = () => {
   const slider = useRef();
   let tx = 0;
   const slideForward = () => {
-    if (tx > -50) {
-      tx -= 25;
+    if (tx<50) {
+      tx += 25;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
   const slideBackward = () => {
-    if (tx < 0) {
-      tx += 25;
+    
+    if (tx > 0) {
+      tx -= 25;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
@@ -29,13 +30,13 @@ const Testimonials = () => {
         src={back_icon}
         alt=""
         className="back-icon"
-        onClick={slideBackward}
+        onClick={slideForward}
       />
        <img
         src={next_icon}
         alt=""
         className="next-icon"
-        onClick={slideForward}
+        onClick={slideBackward}
       />
       <div className="slider">
         <ul ref={slider}>

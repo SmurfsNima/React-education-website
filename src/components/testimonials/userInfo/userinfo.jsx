@@ -3,13 +3,12 @@ const Userinfo = ({userImg,name,loc,comment}) => {
     <li>
       <div className="slide">
         <div className="user-info">
-
-        
-          <div>
+        <img src={userImg} alt="" />
+          <div className="info">
             <h3>{name}</h3>
             <span>{loc}</span>
           </div>
-          <img src={userImg} alt="" />
+         
         </div>
         <p>{comment}</p>
       </div>
